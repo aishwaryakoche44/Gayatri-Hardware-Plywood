@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Project base styles */
+@layer base {
+	html, body, #root { height: 100%; }
+	body {
+		@apply bg-white text-black font-sans;
+		/* keep a comfortable default line-height */
+		line-height: 1.6;
+	}
+
+	/* headings use the Playfair Display family by default */
+	h1, h2, h3, h4, h5, h6 {
+		font-family: theme('fontFamily.heading');
+		color: theme('colors.black');
+	}
+
+	a { color: theme('colors.brand.700'); }
+}
+
+@layer components {
+	.btn-primary { @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white bg-brand-700 hover:bg-brand-800 shadow-md; }
+	.btn-secondary { @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-brand-800 border border-brand-200 bg-brand-50 hover:bg-brand-100; }
+}
+
