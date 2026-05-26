@@ -26,13 +26,13 @@ const Product = () => {
           <p className="mt-3 text-base md:text-lg text-black/75 max-w-2xl mx-auto">Hand-picked plywood, reliable hardware and pro-grade tools — selected to help you build stronger, faster and with confidence.</p>
         </header>
 
-        {/* filters */}
+        {/* filters
         <div className="flex items-center justify-center gap-3 mb-8">
           <button className="btn-secondary">All</button>
           <button className="px-4 py-2 rounded-full text-sm md:text-base font-semibold text-black/85 bg-brand-100 border border-brand-200 hover:bg-brand-200">Plywood</button>
           <button className="px-4 py-2 rounded-full text-sm md:text-base font-semibold text-black/85 bg-brand-100 border border-brand-200 hover:bg-brand-200">Hardware</button>
           <button className="px-4 py-2 rounded-full text-sm md:text-base font-semibold text-black/85 bg-brand-100 border border-brand-200 hover:bg-brand-200">Tools</button>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
         {products.map((product) => (
