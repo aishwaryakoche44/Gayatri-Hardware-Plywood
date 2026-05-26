@@ -181,7 +181,7 @@ const Contact = () => {
                       </span>
 
                       <a
-                        href="#"
+                        href="/"
                         className="opacity-80 hover:underline text-amber-100/90"
                       >
                         123 Gayatri Road, Nagpur, Maharashtra-440034

@@ -57,7 +57,7 @@ const Product = () => {
 
               <div className="mt-5 flex items-center gap-3">
                 <button className="btn-primary">Add to cart</button>
-                <a href="#" className="btn-secondary">View details</a>
+                <a href="/" className="btn-secondary">View details</a>
               </div>
             </div>
           </div>
